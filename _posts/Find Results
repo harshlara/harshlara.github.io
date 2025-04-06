@@ -1,0 +1,10 @@
+Searching 316 files for "prof_pic_color.png"
+
+~/Documents/GitHub/harshlara.github.io/_posts/2024-01-27-advanced-images.md:
+   32  <img-comparison-slider>
+   33    {% include figure.liquid path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
+   34:   {% include figure.liquid path="assets/img/prof_pic_color.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
+   35  </img-comparison-slider>
+   36  
+
+1 match in 1 file
