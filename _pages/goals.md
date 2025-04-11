@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /goals/
 title: goals
 description: 
 nav: true
