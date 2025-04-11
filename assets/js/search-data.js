@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/goals.html";
+            window.location.href = "/goals/";
           },
         },{
         id: 'social-facebook',
