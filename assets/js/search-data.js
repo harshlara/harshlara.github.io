@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-compass",
           title: "Compass",
-          description: "My personal operating system — principles for living, learning, and working.",
+          description: "A few things I try to remember — for living, learning, and working.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/goals/";
