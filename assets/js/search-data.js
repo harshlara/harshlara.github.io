@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Publications in reversed chronological order.",
+          description: "Papers and patents, in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "A visual representation of my career journey across AI research and engineering (generated using Nano Banana Pro).",
+          description: "Experience, education, skills, publications, and patents.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-compass",
           title: "Compass",
-          description: "A few things I try to remember — for living, learning, and working.",
+          description: "A few things I try to remember.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/goals/";
