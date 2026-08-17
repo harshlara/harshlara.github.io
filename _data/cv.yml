@@ -1,0 +1,159 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Harsh Lara
+    - name: Location
+      value: San Francisco, CA
+    - name: Email
+      value: hlara.tech@gmail.com
+    - name: Languages
+      value: English, Hindi
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Tech Lead, AI Research & Experimentation
+      institution: Google, San Francisco, CA
+      year: 2026 - now
+      description:
+        - Autonomous threat detection and infrastructure remediation agents, closing the loop from security telemetry to automated mitigation.
+        - Sandboxed Docker world runners and automated online verifiers for end-to-end reasoning, tool-use accuracy, and agent reliability.
+        - Controllable LLM user simulators and multi-step API refinement models for technical investigation and triage.
+
+    - title: Member of Technical Staff
+      institution: Resolve AI, San Francisco, CA
+      year: 2025 - 2026
+      description:
+        - Early technical hire. Scaled from Seed ($115M) to Series A ($1.5B), backed by Greylock, Lightspeed, DST Global, and Jeff Dean.
+        - "Architected and shipped the mitigations system: autonomous agents that resolve production incidents end to end, cutting customer MTTR."
+        - Drove the feature launches that onboarded Coinbase, DoorDash, and MongoDB.
+        - "Owned evaluation strategy across the agentic stack: investigation, root cause analysis, mitigation accuracy, agent reliability. Represented Resolve AI at HumanX 2026."
+
+    - title: Research Engineer, Gemini
+      institution: Google DeepMind, Mountain View, CA
+      year: 2021 - 2025
+      description:
+        - Led post-training tool-use and hallucination reduction for Project Astra and Gemini Live, including Google Workspace integrations.
+        - Co-led MoDE (Mixture of Dyadic Experts), a multi-task PEFT architecture beating prior methods across 700+ tasks (NAACL 2025).
+        - Core contributor to OmegaPRM and step-wise DPO. MCTS-based process supervision lifted Gemini math reasoning to 69.4% on MATH500 (+18.4) and 93.6% on GSM8K (+7.2).
+        - Efficient decoding via early-exit chain-of-thought adaptors and self-improving LLM feedback loops.
+        - Built RecLLM for YouTube recommendations on LaMDA, plus a controllable user simulator for CRS training and evaluation.
+
+    - title: Applied Scientist, Azure Machine Learning
+      institution: Microsoft, Bellevue, WA
+      year: 2019 - 2021
+      description:
+        - Drove AutoML product strategy, shipping Classification, Regression, and Data Labeling as managed cloud services.
+        - Tech Lead and Applied Sciences Lead across multiple AutoML initiatives, from applied research to enterprise production.
+        - Built deep learning infrastructure that improved training and inference throughput for text data-labeling pipelines.
+
+    - title: Machine Learning Engineer Intern, Siri
+      institution: Apple, Cupertino, CA
+      year: 2019
+      description:
+        - Dynamic on-device interpolation of probabilistic language models, a >15% multi-domain gain in ASR accuracy.
+
+    - title: Software Engineer Intern
+      institution: Arista Networks, Santa Clara, CA
+      year: 2017
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. in Computational Data Science
+      institution: Carnegie Mellon University, School of Computer Science, Pittsburgh, PA
+      year: 2018 - 2019
+      description:
+        - Deep Learning, Applied Machine Learning, Cloud Computing, Computer Systems, Language and Statistics, Large-Scale Multimedia Analysis, Computational Ethics for NLP.
+
+    - title: B.Tech. in Computer Science and Engineering
+      institution: National Institute of Technology Karnataka (NITK), Surathkal, India
+      year: 2014 - 2018
+      description:
+        - Operating Systems, Databases, Distributed Systems, Advanced Algorithms, Data Structures, Image Processing, Graph Theory, Linear Algebra.
+
+- title: Selected Publications & Patents
+  type: time_table
+  contents:
+    - title: "MoDE: Effective Multi-task Parameter Efficient Fine-Tuning with a Mixture of Dyadic Experts"
+      year: 2025
+      institution: NAACL 2025
+      linkitems:
+        - link: https://arxiv.org/abs/2408.01505
+          linkname: arXiv
+
+    - title: Improve Mathematical Reasoning in Language Models by Automated Process Supervision (OmegaPRM)
+      year: 2024
+      institution: arXiv 2024
+      linkitems:
+        - link: https://arxiv.org/abs/2406.06592
+          linkname: arXiv
+
+    - title: Leveraging Large Language Models in Conversational Recommender Systems (RecLLM)
+      year: 2023
+      institution: arXiv 2023
+      linkitems:
+        - link: https://arxiv.org/abs/2305.07961
+          linkname: arXiv
+
+    - title: Evaluation of Synthetic Datasets for Conversational Recommender Systems
+      year: 2022
+      institution: NeurIPS 2022
+      linkitems:
+        - link: https://arxiv.org/abs/2212.08167
+          linkname: arXiv
+
+    - title: Patents (Google), granted & filed
+      year: Patents
+      items:
+        - Neural Networks with Effective Parameter Efficient Adaptations
+        - Efficient Decoding of Output Sequences Using Early Exit Adaptors
+        - Generating Synthetic Conversation Data for Training and Evaluation of Natural Language Models
+
+- title: Skills & Technologies
+  type: list_groups
+  contents:
+    - category: AI & ML
+      icon: fa-solid fa-brain
+      items:
+        - name: Agentic AI systems & autonomous agents
+        - name: Execution harnesses & world runners
+        - name: MCTS / automated process supervision
+        - name: Post-training (SFT, RLHF, DPO, RLAIF)
+        - name: Parameter-efficient fine-tuning (PEFT, MoDE, LoRA)
+        - name: Early-exit decoding & LLM user simulation
+        - name: RAG, foundation models, AutoML
+
+    - category: Languages & Libraries
+      icon: fa-solid fa-code
+      items:
+        - name: Python
+        - name: TypeScript
+        - name: Go
+        - name: C/C++
+        - name: Java
+        - name: SQL
+        - name: PyTorch
+        - name: TensorFlow
+
+    - category: Infrastructure & Cloud
+      icon: fa-solid fa-server
+      items:
+        - name: Docker / sandboxed execution environments
+        - name: ClickHouse
+        - name: Grafana
+        - name: Google Cloud Platform (GCP)
+        - name: Microsoft Azure
+        - name: AWS
+        - name: Distributed systems & ML infrastructure
+
+- title: Honors & Recognition
+  type: time_table
+  contents:
+    - year: 2018
+      items:
+        - J. N. Tata Scholarship, for select undergraduates in India pursuing graduate studies abroad.
+    - year: 2016
+      items:
+        - Indian Academy of Sciences Summer Research Fellowship, 1 of ~1,500 Fellows from 100K+ applicants. Named Entity Recognition and Relation Extraction for BioNLP 2016 at IIT Guwahati.

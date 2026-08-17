@@ -1,0 +1,242 @@
+{
+  "basics": {
+    "name": "Harsh Lara",
+    "label": "Tech Lead, AI & Machine Learning Systems",
+    "image": "",
+    "email": "hlara.tech@gmail.com",
+    "phone": "",
+    "url": "https://harshlara.github.io/",
+    "summary": "AI and ML systems leader with zero-to-one experience across Google, Resolve AI, Microsoft, and Apple. Works the full generative AI stack, from algorithmic foundations through to autonomous agentic systems in production.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "harshlara",
+        "url": "https://www.linkedin.com/in/harshlara"
+      },
+      {
+        "network": "GitHub",
+        "username": "harshlara",
+        "url": "https://github.com/harshlara"
+      },
+      {
+        "network": "Twitter",
+        "username": "harshlara",
+        "url": "https://twitter.com/harshlara"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Google",
+      "position": "Tech Lead, AI Research & Experimentation",
+      "location": "San Francisco, CA",
+      "url": "https://about.google/",
+      "startDate": "2026",
+      "highlights": [
+        "Autonomous threat detection and infrastructure remediation agents, closing the loop from security telemetry to automated mitigation.",
+        "Sandboxed Docker world runners and automated online verifiers for end-to-end reasoning, tool-use accuracy, and agent reliability.",
+        "Controllable LLM user simulators and multi-step API refinement models for technical investigation and triage."
+      ]
+    },
+    {
+      "name": "Resolve AI",
+      "position": "Member of Technical Staff",
+      "location": "San Francisco, CA",
+      "url": "https://resolve.ai/",
+      "startDate": "2025-09",
+      "endDate": "2026",
+      "highlights": [
+        "Early technical hire. Scaled from Seed ($115M) to Series A ($1.5B), backed by Greylock, Lightspeed, DST Global, and Jeff Dean.",
+        "Architected and shipped the mitigations system: autonomous agents that resolve production incidents end to end, cutting customer MTTR.",
+        "Drove the feature launches that onboarded Coinbase, DoorDash, and MongoDB.",
+        "Owned evaluation strategy across the agentic stack: investigation, root cause analysis, mitigation accuracy, agent reliability. Represented Resolve AI at HumanX 2026."
+      ]
+    },
+    {
+      "name": "Google DeepMind",
+      "position": "Research Engineer, Gemini",
+      "location": "Mountain View, CA",
+      "url": "https://deepmind.google/",
+      "startDate": "2021-09",
+      "endDate": "2025-09",
+      "highlights": [
+        "Led post-training tool-use and hallucination reduction for Project Astra and Gemini Live, including Google Workspace integrations.",
+        "Co-led MoDE (Mixture of Dyadic Experts), a multi-task PEFT architecture beating prior methods across 700+ tasks (NAACL 2025).",
+        "Core contributor to OmegaPRM and step-wise DPO. MCTS-based process supervision lifted Gemini math reasoning to 69.4% on MATH500 (+18.4) and 93.6% on GSM8K (+7.2).",
+        "Efficient decoding via early-exit chain-of-thought adaptors and self-improving LLM feedback loops.",
+        "Built RecLLM for YouTube recommendations on LaMDA, plus a controllable user simulator for CRS training and evaluation."
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "position": "Applied Scientist, Azure Machine Learning",
+      "location": "Bellevue, WA",
+      "url": "https://azure.microsoft.com/en-us/products/machine-learning",
+      "startDate": "2019-12",
+      "endDate": "2021-09",
+      "highlights": [
+        "Drove AutoML product strategy, shipping Classification, Regression, and Data Labeling as managed cloud services.",
+        "Tech Lead and Applied Sciences Lead across multiple AutoML initiatives, from applied research to enterprise production.",
+        "Built deep learning infrastructure that improved training and inference throughput for text data-labeling pipelines."
+      ]
+    },
+    {
+      "name": "Apple",
+      "position": "Machine Learning Engineer Intern, Siri",
+      "location": "Cupertino, CA",
+      "url": "https://www.apple.com/siri/",
+      "startDate": "2019-05",
+      "endDate": "2019-08",
+      "highlights": ["Dynamic on-device interpolation of probabilistic language models, a >15% multi-domain gain in ASR accuracy."]
+    },
+    {
+      "name": "Arista Networks",
+      "position": "Software Engineer Intern",
+      "location": "Santa Clara, CA",
+      "url": "https://www.arista.com/",
+      "startDate": "2017-05",
+      "endDate": "2017-08"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, Pennsylvania",
+      "url": "https://www.cmu.edu",
+      "area": "Computational Data Science",
+      "studyType": "Master of Science",
+      "startDate": "2018-07",
+      "endDate": "2019-12",
+      "courses": [
+        "Deep Learning",
+        "Applied Machine Learning",
+        "Cloud Computing",
+        "Computer Systems",
+        "Language and Statistics",
+        "Large-Scale Multimedia Analysis",
+        "Computational Ethics for NLP"
+      ]
+    },
+    {
+      "institution": "National Institute of Technology Karnataka",
+      "location": "Surathkal, India",
+      "url": "https://www.nitk.ac.in/",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2014-07",
+      "endDate": "2018-05",
+      "courses": [
+        "Operating Systems",
+        "Databases",
+        "Distributed Systems",
+        "Advanced Algorithms",
+        "Data Structures",
+        "Image Processing",
+        "Graph Theory",
+        "Linear Algebra"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI & ML",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Agentic AI systems & autonomous agents",
+        "Execution harnesses & world runners",
+        "MCTS / automated process supervision",
+        "Post-training (SFT, RLHF, DPO, RLAIF)",
+        "Parameter-efficient fine-tuning (PEFT, MoDE, LoRA)",
+        "Early-exit decoding",
+        "LLM user simulation",
+        "RAG, foundation models, AutoML"
+      ]
+    },
+    {
+      "name": "Languages & Libraries",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "TypeScript", "Go", "C/C++", "Java", "SQL", "PyTorch", "TensorFlow"]
+    },
+    {
+      "name": "Infrastructure & Cloud",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Docker / sandboxed execution environments",
+        "ClickHouse",
+        "Grafana",
+        "Google Cloud Platform",
+        "Microsoft Azure",
+        "AWS",
+        "Distributed systems",
+        "ML infrastructure"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "MoDE: Effective Multi-task Parameter Efficient Fine-Tuning with a Mixture of Dyadic Experts",
+      "publisher": "NAACL 2025",
+      "releaseDate": "2025-04-29",
+      "url": "https://arxiv.org/abs/2408.01505",
+      "summary": "A multi-task parameter-efficient fine-tuning architecture using a mixture of dyadic experts, outperforming existing methods across 700+ tasks."
+    },
+    {
+      "name": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision (OmegaPRM)",
+      "publisher": "arXiv 2024",
+      "releaseDate": "2024-06-10",
+      "url": "https://arxiv.org/abs/2406.06592",
+      "summary": "A divide-and-conquer MCTS algorithm for automated process supervision, lifting Gemini math reasoning by +18.4% on MATH500 and +7.2% on GSM8K."
+    },
+    {
+      "name": "Leveraging Large Language Models in Conversational Recommender Systems (RecLLM)",
+      "publisher": "arXiv 2023",
+      "releaseDate": "2023-05-13",
+      "url": "https://arxiv.org/abs/2305.07961",
+      "summary": "An LLM-based conversational recommender system for YouTube video recommendations built on LaMDA."
+    },
+    {
+      "name": "Evaluation of Synthetic Datasets for Conversational Recommender Systems",
+      "publisher": "NeurIPS 2022 (Synthetic Data for Empowering ML Research)",
+      "releaseDate": "2022-12-15",
+      "url": "https://arxiv.org/abs/2212.08167",
+      "summary": "A controllable LLM-based user simulator addressing data scarcity in conversational recommender system training and evaluation."
+    },
+    {
+      "name": "Patent: Neural Networks with Effective Parameter Efficient Adaptations",
+      "publisher": "Google (granted & filed)",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": "Parameter-efficient adaptation methods for neural networks."
+    },
+    {
+      "name": "Patent: Efficient Decoding of Output Sequences Using Early Exit Adaptors",
+      "publisher": "Google (granted & filed)",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": "Early-exit adaptors for efficient decoding of output sequences."
+    },
+    {
+      "name": "Patent: Generating Synthetic Conversation Data for Training and Evaluation of Natural Language Models",
+      "publisher": "Google (granted & filed)",
+      "releaseDate": "2023-01-01",
+      "url": "",
+      "summary": "Synthetic conversation data generation for training and evaluating natural language models."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Indian Academy of Sciences (IAS) Summer Research Fellowship",
+      "date": "2016-05-01",
+      "awarder": "Indian Academy of Sciences",
+      "url": "https://www.ias.ac.in/",
+      "summary": "Selected as 1 of ~1,500 Fellows nationwide from 100K+ applicants; researched Named Entity Recognition and Relation Extraction for the BioNLP 2016 Competition at IIT Guwahati."
+    },
+    {
+      "title": "J. N. Tata Scholarship",
+      "date": "2018-06-01",
+      "awarder": "The J. N. Tata Endowment",
+      "url": "https://jntataendowment.org/",
+      "summary": "Awarded to select undergraduates in India to pursue graduate studies abroad."
+    }
+  ]
+}
